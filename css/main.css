@@ -1,0 +1,87 @@
+:root {
+  --primary:  blue;
+  --accent:   purple;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 2rem;
+}
+
+#name, #email {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+section {
+  width: 100%;
+}
+
+section h2, .subsection {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section h2 {
+  border-bottom: 0.2rem solid black;
+  max-width: 128rem;
+  width: 100%;
+}
+
+.subsection {
+  padding-left: 1rem;
+  margin-bottom: 3rem;
+  max-width: calc(123rem);
+  width: calc(100% - 1rem);
+}
+
+.job-title, .job-detail, .detail-name, .detail-date {
+  display: inline-block;
+}
+
+.job-title {
+  width: 100%;
+}
+
+.job-detail {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-experience {
+  margin-top: 3rem;
+  padding-left: 1rem;
+}
+
+.job-experience ul {
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 768px) {
+  .subsection {
+    padding-left: 5rem;
+    width: calc(100% - 5rem);
+  }
+  .job-experience {
+    padding-left: 5rem;
+  }
+}
