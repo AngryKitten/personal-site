@@ -67,6 +67,10 @@ section h2 {
   justify-content: space-between;
 }
 
+.job-description {
+  margin-top: 2rem;
+}
+
 .job-experience {
   margin-top: 3rem;
   padding-left: 1rem;
